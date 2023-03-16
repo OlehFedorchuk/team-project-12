@@ -1,0 +1,89 @@
+:root {
+    --main-page-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background-color: #1E1823;
+    padding: 32px 20px;
+}
+
+
+.footer-slogan {
+    max-width: 300px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: var(--main-page-color);
+    margin-bottom: 32px;
+}
+
+/* Address */
+.contacts-us {
+    margin-bottom: 14px;
+}
+
+.footer-accent {
+
+    color: #FD9222;
+}
+
+.address-tel {
+    color: var(--main-page-color);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.contacts-tel {
+    margin-bottom: 4px;
+}
+
+/* Footer anchor menu */
+.footer-anchor-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+}
+
+.footer-anchor-list {
+    margin-bottom: 18px;
+}
+
+.border {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: rgb(148, 167, 167);
+    }
+}
