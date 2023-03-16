@@ -2,6 +2,10 @@
     --main-page-color: #ffffff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
     margin: 0px;
@@ -17,8 +21,18 @@ h2 {
     margin: 0;
 }
 
-.footer {
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #1E1823; */
+}
+
+.footer-section {
     background-color: #1E1823;
+}
+
+.footer {
+
     padding: 32px 20px;
 }
 
@@ -60,6 +74,29 @@ h2 {
     margin-bottom: 4px;
 }
 
+.dd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-address {
+    width: 164px;
+    margin-bottom: 32px;
+
+}
+
+
+/* soc-list */
+.soc-list {
+    /* width: 58px; */
+    display: flex;
+    gap: 24px;
+    /* text-align: center; */
+    /* justify-content: space-between; */
+}
+
+/*  */
+
 /* Footer anchor menu */
 .footer-anchor-link {
     font-family: 'Montserrat';
@@ -72,18 +109,83 @@ h2 {
 
 }
 
-.footer-anchor-list {
+.footer-anchor-items {
     margin-bottom: 18px;
 }
 
 .border {
     width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     transform: rotate(180deg);
+    margin-bottom: 32px;
 }
 
-@media screen and (max-width: 375px) {
-    body {
-        background-color: rgb(148, 167, 167);
+@media screen and (min-width: 375px) {
+
+    .footer-section {
+        background-color: #1E1823;
+        margin-left: auto;
+        margin-right: auto;
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-section {
+        /* background-color: #1E1823; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+    }
+
+    .footer-anchor-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .border {
+        margin-bottom: 24px;
+
+    }
+
+    .footer-anchor-items {
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding: 50px 32px;
+        padding-bottom: 50px;
+    }
+
+    .footer-wrap {
+        display: flex;
+
+    }
+
+    .footer-slogan {
+        font-size: 28px;
+        line-height: 1.21;
+        margin-right: 124px;
+    }
+
+    .footer-address {
+        margin-right: 52px;
+    }
+
+    .icon-svg {
+        width: 24px;
+        height: 24px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .footer-section {
+        width: 1200px;
+    }
+
+    .footer-wrap {
+        justify-content: space-between;
     }
 }
