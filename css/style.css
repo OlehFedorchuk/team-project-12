@@ -21,6 +21,15 @@ h2 {
     margin: 0;
 }
 
+.icon-svg {
+    stroke: #ffffff;
+}
+
+.icon-svg:hover {
+
+    stroke: #FD9222;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -176,7 +185,6 @@ body {
         width: 24px;
         height: 24px;
     }
-
 
 }
 
